@@ -340,4 +340,4 @@ body.msp-body{margin:0;font-family:var(--msp-font);background:var(--msp-g0);colo
 @media(max-width:700px){.msp-grid-2,.msp-grid-3{grid-template-columns:1fr}}
 
 /* preview build */
-.msp-sb-brand{position:relative}.msp-sb-brand::after{content:"PREVIEW";position:absolute;top:12px;right:16px;font:700 9px/1 var(--msp-font);letter-spacing:.12em;color:var(--msp-navy);background:var(--msp-sky);padding:4px 6px;border-radius:4px}
+.msp-sb-brand{position:relative}.msp-sb-brand::after{content:"PREVIEW";position:absolute;top:12px;right:16px;font:700 9px/1 var(--msp-font);letter-spacing:.12em;color:var(--msp-navy);background:var(--msp-sky);padding:4px 6px;border-radius:4px}@media(max-width:900px){.msp-sb-brand::after{top:auto;bottom:4px;right:16px}}
