@@ -1,0 +1,13 @@
+/* Isolated switcher for the compiled Exams Office. No application styles changed. */
+#msp-exams-nav {position:fixed;right:16px;top:14px;z-index:9999;font:600 13px/1.35 Inter,system-ui,sans-serif;}
+#msp-exams-toggle {background:#0a2547;color:white;border:1px solid #5486b0;border-radius:10px;padding:10px 14px;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.18);font:inherit;}
+#msp-exams-toggle:hover,#msp-exams-toggle:focus-visible {background:#16395f;}
+#msp-exams-menu {position:absolute;right:0;top:calc(100% + 6px);min-width:250px;padding:6px;background:#0a2547;color:white;border-radius:12px;border:1px solid #2a4c6b;box-shadow:0 12px 30px rgba(0,0,0,.3);}
+#msp-exams-menu[hidden] {display:none!important;}
+#msp-exams-menu a {display:flex;gap:10px;align-items:center;padding:8px 10px;color:#e0e8f1;text-decoration:none;border-radius:8px;font-size:13px;}
+#msp-exams-menu a:hover,#msp-exams-menu a:focus-visible{color:white;background:#23425e;}
+#msp-exams-menu a[aria-current="page"]{color:#6ed2ec;}
+#msp-exams-menu .msp-exams-icon{display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;height:28px;border-radius:7px;background:rgba(255,255,255,.06);}
+#msp-exams-menu .msp-exams-icon svg{width:16px;height:16px;}
+#msp-exams-menu .msp-exams-all{margin-top:5px;padding-top:12px;border-top:1px solid rgba(255,255,255,.15);}
+@media print{#msp-exams-nav{display:none!important;}}
